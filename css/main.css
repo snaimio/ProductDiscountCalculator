@@ -1,0 +1,135 @@
+/*
+ * main.css
+ * Styles for the Product Discount Calculator.
+ */
+
+/* ============================================
+   Page basics
+   ============================================ */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ============================================
+   Main content box
+   ============================================ */
+
+main {
+    display: block;
+    width: 520px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2em;
+    background: #ffffff;
+    border: 2px solid #003366;
+    box-sizing: border-box;
+}
+
+/* ============================================
+   Headings
+   ============================================ */
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-size: 1.75em;
+}
+
+/* ============================================
+   Labels
+   ============================================ */
+
+label {
+    display: block;
+    float: left;
+    width: 12em;
+    margin-right: 1em;
+    text-align: right;
+    line-height: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    color: #003366;
+}
+
+/* ============================================
+   Form inputs (form page)
+   ============================================ */
+
+#data input {
+    float: left;
+    width: 12em;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#data input:focus {
+    outline: none;
+    border-color: #003366;
+}
+
+/* ============================================
+   Result spans (results page)
+   Match input width so both pages align the same way.
+   ============================================ */
+
+#data span {
+    float: left;
+    width: 12em;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0 0.5em;
+    line-height: 2em;
+    box-sizing: border-box;
+    color: #333;
+    font-weight: 600;
+}
+
+/* ============================================
+   Submit button
+   ============================================ */
+
+#buttons {
+    clear: left;
+    margin-top: 1em;
+}
+
+#buttons input {
+    float: left;
+    width: 12em;
+    height: 2.5em;
+    margin-bottom: 1.25em;
+    margin-left: 13em;      /* pushes button right, under the input column */
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #003366;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+#buttons input:hover {
+    background-color: #002b52;
+}
+
+/* ============================================
+   Utility
+   ============================================ */
+
+br {
+    clear: left;
+}
